@@ -10,7 +10,15 @@ pipeline {
                 echo 'Maven Build'
             }
         }
-   
+      
+      stage('Dev Deploy') {
+         when {
+            branch 'develop'
+         }
+            steps {
+                echo 'Dev Deploy'
+            }
+      }
       stage('Test Deploy') {
          when {
             branch 'test'
