@@ -11,7 +11,7 @@
     <repository>
       <id>nexus</id>
       <name>excitement</name>
-      <url>http://hlt-services4.fbk.eu:8081/artifactory/repo/eu/excitementproject</url>
+      <url>http://172.31.71.234:8081/repository/hr-api1)</url>
     </repository>
   </repositories>
 	
